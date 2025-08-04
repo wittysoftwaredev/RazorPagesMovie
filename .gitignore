@@ -1,0 +1,49 @@
+## Ignore build outputs
+bin/
+obj/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## ASP.NET Core secrets
+**/appsettings.Development.json
+secrets.json
+
+## Visual Studio Code settings
+.vscode/
+
+## Rider settings
+.idea/
+
+## ASP.NET Publish folder
+**/publish/
+**/wwwroot/
+
+## Logs
+*.log
+logs/
+
+## Entity Framework
+Migrations/
+
+## dotnet watch
+**/.vs/
+**/.vsconfig
+**/.vscode/
+
+## NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+
+## Others
+.DS_Store
+Thumbs.db
+
+## Environment files
+.env
+.env.*
